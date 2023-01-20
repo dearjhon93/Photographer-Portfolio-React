@@ -1,0 +1,91 @@
+.link{
+    color: #f0f0f0;
+}
+
+.sidebar{
+    color: #f0f0f0;
+    display: block;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+
+    
+    .sidebar-header{
+        padding: 1em .3em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        .logo{
+            margin: 0 auto;
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        h4{
+            font-size: 1em;
+            font-weight: 500;
+            letter-spacing: 4px;
+        }
+        .subtitle{
+            font-size: .7em;
+            font-weight: 200;
+            letter-spacing: 1px;
+        }
+    }
+    .sidebar-content{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em .3em;
+        line-height: 3em;
+        letter-spacing: 4px;
+
+        .link{
+            display: inline-block;
+            transition: transform 0.5s ease;
+            transform: translateX(0px);
+            // cursor: pointer;
+
+            &:hover{
+                transform: translateX(10px);
+            }
+        }
+    }
+    
+    .sidebar-footer{
+        margin: auto 0; //funciono para completar espacio no usado
+        text-align: center;
+
+        .social{
+            img{
+                padding: 8px 0;
+                width: 20px;
+                margin: 0 9px;
+                transition: transform 0.5s ease;
+                transform: translateY(0px);
+                cursor: pointer;
+
+                &:hover{
+                    transform: translateY(-4px);
+                }
+            }
+        }
+        .copyright{
+            font-size: 11px;
+        }
+    }
+}
+
+// Mostrar mayor a 900px
+@media only screen and (max-width: 900px){ //900px
+    .sidebar{
+        display: none;
+    }
+}

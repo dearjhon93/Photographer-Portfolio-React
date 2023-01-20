@@ -1,0 +1,41 @@
+.galery_content{
+    margin-left: 300px;
+    background-color: #333;
+    .swiper {
+        background-color: black;
+        width: 100%;
+        
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+        
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 85vh;
+        img {
+            display: block;
+            width: 100%;
+            height: 85vh; 
+            object-fit: contain;
+        }
+    }
+         
+}
+  
+// Responsive Home Images (Importante orden pantallas!)
+@media only screen and (max-width: 900px){
+    .galery_content{
+        margin-left: 0;
+        margin-top: 50px;
+        width: 100%;
+
+        .swiper {
+            width: 100%;
+            img {
+                width: 75%; 
+            }
+        }
+    }
+}
