@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from 'react';
+// import React, {useState, useEffect} from 'react';
+import React from 'react';
 
 import './galery-style.scss';
 
@@ -50,52 +51,52 @@ export const Galery = () => {
             className="mySwiper"
         >
             <SwiperSlide>
-            <img src="https://static-cse.canva.com/blob/691411/00gross_IG_hubs_adriansava.7536b79e.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/wedding-rings_C1ZAW5IMSC.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://images.unsplash.com/photo-1556642389-0cd5fd882f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/girl-outdoor_XILJACKELC.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://kevsbest.com/wp-content/uploads/2020/05/5-Best-Photographers-in-Charlotte-1024x694.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/husky-animal_SLL65ROOYO.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/dog-puppy_X8VPPWVKKY.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/dog-puppy_S7MVXDAAI7.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/urban-fashion_TQAKNY0XO2.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/couple-wedding_MMHT9YFRTF.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/woman-urban_F7CW0ZYZD0.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/female-portrait_FLUSUJWTGU.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/bride-groom_DTKNL1GBYT.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/insect-flower_XUHRMUP6FH.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/architecture-column_HLGWGKQBMR.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/sea-ocean_5AQ9OI606F.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/people-man_9AM5RS6ZNC.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/squirrel-nature_KCUEBZJ8DB.jpg" alt=''/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt=''/>
+            <img src="https://cdn.stocksnap.io/img-thumbs/960w/bride-wedding_ZWY6ZBRNAM.jpg" alt=''/>
             </SwiperSlide>
         </Swiper>
         </div>

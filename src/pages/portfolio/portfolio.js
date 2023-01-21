@@ -29,10 +29,10 @@ export const Portfolio = () => {
     const categoryData = Data.map((value)=>{
           return value.category
      });
-    const tabsData= ["all", ...new Set(categoryData)];
+    const tabsData= ["todos", ...new Set(categoryData)];
     
     const filterCategory=(category) =>{
-        if(category === "all"){
+        if(category === "todos"){
             setData(Data);
             return;
         }

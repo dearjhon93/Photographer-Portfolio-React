@@ -9,8 +9,10 @@ export const Items = ({data}) => {
             const {id, image, name, description} = value;
             return (
                 <div className="img-hover-zoom" key={id}>
+                    
                     <img src={image} alt={description}/>
                     <span>{name}</span>
+
                 </div>
             )
             })

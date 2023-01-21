@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './sidebar-style.scss';
 
-import CompanyLogo from './../../Assets/img-logo1.png';
+import CompanyLogo from './../../Assets/img-logo1.jpg';
 import FacebookLogo from './../../Assets/img-face.png';
 import InstagramLogo from './../../Assets/img-instagram.png';
 import TwitterLogo from './../../Assets/img-twitter.png';

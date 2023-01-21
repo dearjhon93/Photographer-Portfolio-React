@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 
-import CompanyLogo from './../../Assets/img-logo1.png';
+import CompanyLogo from './../../Assets/img-logo1.jpg';
 
 import './navbar-style.scss';
 
